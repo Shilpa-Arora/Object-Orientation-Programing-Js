@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+  background-color: black;
+
+}
+h1
+{
+  color:white;
+  text-align: center;
+}
+h3
+{
+  color: white;
+  text-align: center;
+}
+
+.hidden{
+  display:none;
+}
+#outerShell{
+  width: 900px;
+  margin: auto;
+  border: solid 5px #333;
+}
+
+#imageCon {
+  position: relative;
+  width: 900px;
+  height: 563px;
+  overflow:hidden;
+}
+.img
+{position: relative;
+  width: 450px; 
+  height: 281.5px;
+}
+.image1 {
+   background: url(../images/bee.jpg) no-repeat;
+  float: left;
+  background-size: 100% 100%;
+}
+.image2 {
+  background: url(../images/fly.jpg) no-repeat;
+  float: right;
+  background-size: 100% 100%;
+}
+.image3 {
+  background: url(../images/leaves.jpg) no-repeat;
+  float: left;
+  background-size: 100% 100%;
+}
+.image4 {
+  background: url(../images/bg.jpg) no-repeat;
+  float: right;
+  background-size: 100% 100%;
+}
